@@ -1,0 +1,15 @@
+/* ProductList.css */
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Adjust the width as needed based on the number of products you want per row */
+  .product-card {
+    width: calc(33.33% - 20px); /* Subtracting margin for spacing */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
